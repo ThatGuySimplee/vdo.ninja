@@ -18,6 +18,7 @@
 	--darktheme-lightgreen: #008770;
 	--darktheme-brown: rgb(96, 58, 25);
 	--darktheme-yellow: rgb(84, 70, 9);
+	--darktheme-grey-2: #2F4F4F;
 
 	/* Lightmode white - Darker to lighter */
 	--lighttheme-1: #fff;
@@ -5345,7 +5346,7 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 .darktheme .container-inner {
-	background-color: var(--discord-grey-7);
+	background-color: var(--darktheme-grey-2);
 }
 
 .container-inner {
