@@ -4831,7 +4831,7 @@ async function main(){ // main asyncronous thread; mostly initializes the user s
 		if (session.webcamonly == true) { // mobile or manual flag 'webcam' pflag set
 			getById("head1").innerHTML = '';
 		} else {
-			getById("head1").innerHTML = '<span style="color:FFC0CB" data-translate="please-select-option-to-join"></span>';
+			getById("head1").innerHTML = '';
 		}
 
 		if (session.roomid.length > 0) {
