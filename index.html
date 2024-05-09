@@ -2661,7 +2661,7 @@
 			// session.novideo // False by default, otherwise specify a list [] of stream IDs to allow. Listing none allows no incoming video streams
 			// session.forceios // If true, will allow iOS devices to send H264 video to other guests in a room
 			// session.nocursor // hides the cursor using CSS
-			// session.codec = h264; // default codec; maybe h264 is useful? the default is up to the browser normally
+			session.codec = h264; // default codec; maybe h264 is useful? the default is up to the browser normally
 			// session.scale // By default, scale is self-optimizing, but you can set a value of 1 to 100 to choose the playback scale of all incoming video streams
 			session.bitrate = 8000;// int in kbps -- you can set the default max target bitrate here
 			session.totalRoomBitrate = 20000; // int, kbps -- you can set the default quality of the group room here
