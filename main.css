@@ -65,7 +65,7 @@
 
 	/* Original colors */
 	--background-color: #0F1923;
-	--dark-background-color: #0F1923;
+	--dark-background-color: rgba(0,0,0,0);
 	--container-color: #373737;
 	--button-color: #2A2A2A;
 	--blue-accent: #4a4c63;
