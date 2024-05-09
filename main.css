@@ -7,8 +7,8 @@
 	--discord-grey-4: #2e3035;
 	--discord-grey-5: #313338;
 	--discord-grey-6: #383a40;
-	--discord-grey-7: darkslategrey; /* primary */
-	--discord-grey-8: #5e6064;
+	--discord-grey-7: #2F4F4F; /* primary */
+	--discord-grey-8: #FFC0CB; /*#5e6064;*/
 
 	--discord-text: hsl( 210 calc(1 * 9.1%) 92% /1);
 
