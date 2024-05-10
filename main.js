@@ -3241,7 +3241,7 @@ async function main(){ // main asyncronous thread; mostly initializes the user s
 		getById("reportbutton").style.display = "none";
 		getById("reportbutton").style.opacity = 0;
 		getById("calendarButton").style.display = ""; //removed none from calendar for testing 
-		getById("calendarButton").style.opacity = 0;
+		getById("calendarButton").style.opacity = 1; //changed 0 to 1 from calendar for testing
 		getById("chatBody").innerHTML = "";
 	}
 
@@ -3588,8 +3588,8 @@ async function main(){ // main asyncronous thread; mostly initializes the user s
 		getById("helpbutton").style.opacity = 0;
 		getById("reportbutton").style.display = "none";
 		getById("reportbutton").style.opacity = 0;
-		getById("calendarButton").style.display = "none";
-		getById("calendarButton").style.opacity = 0;
+		getById("calendarButton").style.display = ""; //removed none from calendar for testing 
+		getById("calendarButton").style.opacity = 1; //changed 0 to 1 from calendar for testing
 		document.documentElement.style.setProperty('--myvideo-background', '#0000');
 		var styleTmp = document.createElement('style');
 		styleTmp.innerHTML = `
