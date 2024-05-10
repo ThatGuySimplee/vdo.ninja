@@ -54,7 +54,7 @@ async function main(){ // main asyncronous thread; mostly initializes the user s
 				} 
 				getById("qos").innerHTML = "";
 				getById("logoname").innerHTML = "";
-				getById("helpbutton").style.display = "none";
+				getById("helpbutton").style.display = ""; // Removed None for testing
 				getById("helpbutton").style.opacity = 0;
 				getById("reportbutton").style.display = "none";
 				getById("reportbutton").style.opacity = 0;
